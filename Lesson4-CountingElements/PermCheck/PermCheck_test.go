@@ -1,4 +1,4 @@
-package Temp
+package PermCheck
 
 import (
 	"fmt"
