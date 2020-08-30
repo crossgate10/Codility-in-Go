@@ -1,6 +1,6 @@
 package StoneWall
 
-import "codilityingo/Lesson7-StacksAndQueues/StackQueue"
+import "codilityingo/pkg/StackQueue"
 
 func Solution(H []int) int {
 	l := StackQueue.NewIntStack(len(H))

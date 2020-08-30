@@ -1,5 +1,7 @@
 package StackQueue
 
+// FIFO
+
 type StringStack struct {
 	size int
 	data []string

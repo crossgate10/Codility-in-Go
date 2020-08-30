@@ -1,6 +1,6 @@
 package Brackets
 
-import "codilityingo/Lesson7-StacksAndQueues/StackQueue"
+import "codilityingo/pkg/StackQueue"
 
 func Solution(S string) int {
 	l := StackQueue.NewStringStack(len(S))

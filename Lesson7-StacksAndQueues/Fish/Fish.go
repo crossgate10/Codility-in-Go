@@ -1,6 +1,6 @@
 package Fish
 
-import "codilityingo/Lesson7-StacksAndQueues/StackQueue"
+import "codilityingo/pkg/StackQueue"
 
 func Solution(A, B []int) int {
 	l := StackQueue.NewIntStack(len(A))
