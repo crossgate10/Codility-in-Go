@@ -1,9 +1,12 @@
 .PHONY: all
 
-pn=""
 new:
-	@read -p "Enter Project Name:" pn; \
-    mkdir $$pn && cd $$pn && \
-    echo > $$pn"_test.go" && \
-    echo > $$pn".go" && \
-    echo > README.md
+	@read -p "Enter Project Name:" pn; mkdir $$pn; \
+	make --no-print-directory create ProjectNameVar=$$pn
+
+create:
+	@cd $(ProjectNameVar) && echo > $(ProjectNameVar)"_test.go"
+	@cd $(ProjectNameVar) && echo > $(ProjectNameVar)".go"
+	@cd $(ProjectNameVar) && echo > README.md
+	@echo "done"
+
