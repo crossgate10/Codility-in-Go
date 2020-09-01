@@ -1,18 +1,14 @@
 package MaxSliceSum
 
-import (
-	"fmt"
-	"math"
-)
+import "math"
 
 func Solution(A []int) int {
-	leftSlice, untilNow, onceTotal := 0, 0, 0
+	maxSum := float64(1 - (1 << 32 -1))
+	maxEnding := maxSum
 
-	for i := 3; i < len(A); i++ {
-		leftSlice = int(math.Max(0, float64(A[i-2]+leftSlice)))
-		untilNow = int(math.Max(float64(leftSlice), float64(A[i-1])+float64(untilNow)))
-		onceTotal = int(math.Max(float64(untilNow), float64(onceTotal)))
-		fmt.Print(1)
+	for _, value := range A {
+		maxEnding = math.Max(float64(value), float64(value) + maxEnding)
+		maxSum = math.Max(maxEnding, maxSum)
 	}
-	return onceTotal
+	return int(maxSum)
 }

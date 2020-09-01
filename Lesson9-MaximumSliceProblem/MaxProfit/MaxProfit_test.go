@@ -11,7 +11,7 @@ func TestSolution(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
+		{"1", args{[]int{23171, 21011, 21123, 21366, 21013, 21367}}, 356},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

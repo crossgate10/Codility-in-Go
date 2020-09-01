@@ -11,7 +11,7 @@ func TestSolution(t *testing.T) {
 		args args
 		want int
 	}{
-		{"1", args{[]int{3, 2, 6, -1, 4, 5, -1, 2}}, 17},
+		{"1", args{[]int{3, 2, -6, 4, 0}}, 5},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
