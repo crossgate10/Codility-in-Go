@@ -43,3 +43,8 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [3..100,000];
 each element of array A is an integer within the range [−10,000..10,000].
+
+#### 心得
+```
+比MaxSlice多一個變數去紀錄左邊slice總和，使用A[Z-2]代表Ｘ、A[Z-1]代表Y，取最大值後回傳
+```
