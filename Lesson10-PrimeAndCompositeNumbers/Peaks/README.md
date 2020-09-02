@@ -65,3 +65,10 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..100,000];
 each element of array A is an integer within the range [0..1,000,000,000].
+
+#### 心得
+```
+題目條件
+1. 每塊至少要有一個 peak，同時這也表示最大 block 數量
+2. block 的端點也可以是 peak
+```

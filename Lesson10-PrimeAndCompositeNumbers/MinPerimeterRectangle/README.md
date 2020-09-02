@@ -21,3 +21,10 @@ For example, given an integer N = 30, the function should return 22, as explaine
 Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..1,000,000,000].
+
+#### 心得
+```
+長寬相距最小，也會有最小周長
+以 6 來說，可以拆成 1*6, 2*3
+周長分別為 (1+6)*2, (2+3)*2
+```
