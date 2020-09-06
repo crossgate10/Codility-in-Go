@@ -51,3 +51,9 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [0..100,000];
 each element of array A is an integer that can have one of the following values: 0, 1.
+
+#### 心得
+```
+1. BFS 搜索
+2. ref: https://www.jianshu.com/p/659a53844c0b
+```

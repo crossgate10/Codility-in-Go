@@ -44,3 +44,9 @@ Write an efficient algorithm for the following assumptions:
 L is an integer within the range [1..50,000];
 each element of array A is an integer within the range [1..L];
 each element of array B is an integer within the range [1..30].
+
+#### 心得
+```
+1. 同餘：當兩個整數除以同一個正整數，若得相同餘數，則二整數同餘
+2. 可以用 & + shift 作法取代 modulo，如 x modulo y = (x & (y − 1)) when y is a pow of 2
+```
