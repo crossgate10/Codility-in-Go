@@ -5,8 +5,8 @@ import (
 )
 
 func Solution(A, B, C []int) int {
-	//return solution1(A, B, C)
-	return solution2(A, B, C)
+	return solution1(A, B, C)
+	//return solution2(A, B, C)
 }
 
 func solution1(A, B, C []int) int {
@@ -72,7 +72,7 @@ func solution2(A, B, C []int) int {
 				q.PushRight(right)
 			}
 			r = Max(r, nail[q.Left().(int)])
-			if r>=inf {
+			if r >= inf {
 				return -1
 			}
 		}
