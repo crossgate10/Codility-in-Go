@@ -16,7 +16,7 @@ For example, consider K = 4 and array A such that:
     A[6] = 3
 The ropes are shown in the figure below.
 
-![][./figure1.jpg]
+![](./figure1.jpg)
 
 We can tie:
 
