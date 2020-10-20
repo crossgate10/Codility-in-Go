@@ -13,7 +13,7 @@ For example, consider arrays A, B such that:
     A[4] = 9    B[4] = 10
 The segments are shown in the figure below.
 
-![avatar][figure1]
+![](./figure1.jpg)
 
 The size of a non-overlapping set containing a maximal number of segments is 3. For example, possible sets are {0, 2, 3}, {0, 2, 4}, {1, 2, 3} or {1, 2, 4}. There is no non-overlapping set with four segments.
 
@@ -41,6 +41,4 @@ B[K] ≤ B[K + 1], for each K (0 ≤ K < N − 1).
 |記憶體使用|因為不需修改前次紀錄，記憶體更為高效|需要存先前計算結果|
 |效率|通常較快|通常較慢|
 
-
-[figure1]:data:image/*;base64,iVBORw0KGgoAAAANSUhEUgAAAQYAAAAkCAQAAADBL1w+AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAJiS0dEAP+Hj8y/AAAACXBIWXMAAABIAAAASABGyWs+AAACiUlEQVR42u2csY7TQBBA35yQoN0OCYrT8gmmoLvG9wkRBVcb/iBI/ECu4AMS0Z0oIA0VDW7oKEh7okmE+ADc0KKhOMu5Khevgydx5qXZIp6ZHY13ZjezEcUZChJAqw7PDycYZERGqaW1HYbzh0Cl82QJwwkGkByONxhqH0z0deqz96yNd3aH5OQkrwtwYj0BZ3doySV5+vMeDIOiS/k4qDQhBRlI1Jm1JWbzrwisOkgYUgF57Eik8q2lsxNMagbJZCofZWQ9+UFZ+kKu5Ze87STDYmWQ3wQAnurCQP0wLf1bv9gX+j5VhkEBKUXtYPgkP/rX34JHjaUFL62N2YRcNWv8Gw4pGFifEc75bKB/ex5yVY/2fF3gHRc7sFQNPkxRlO8EC+0DtfQaRfnDaboMo92ERMK+Z+GDs/SMx+n1AvjW0rmFH0c7DR4MToMHg9PgweA0eDA4DR4MToNZMEjoLuNw2c/ZWx06jYhUrI6zfVXGrLr1MSfoDEyZbfa31coQ9VJnZEbarVnovPfZF9zZAWYVDDf9OAdxzLt7tATJ6HFVlGwbX3sBaYJkxF5TZL6NNqtguCmgjjRNSEbss14AFpKTETd/yao7eiVjquNME5IxYSEZQXtrmNFSIiPuaJY1+9Wy6yVRZ/ecAEguE4ldRbVDOzV1t0WiTKTDXaMEjYk+lSBjKZI0FjJOOb+4ZWnTzaMU1t06/60LqKgH0940JvqUWA+WrTUu60FMt1QILOty7icf+ntzeuU5pwBUPOljPZJ0n57xrB6dt9ltSM6XeviNry303ecVDwAo9dy3ls4aTxOeJpo0odT3+mfa4crmviORot9/dUn1qQQKqpTLw1IQmLVPg2tL/wFaD5rWAmhwbQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNi0xMS0xNVQxNzo1MDowNSswMDowMIThzM8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTYtMTEtMTVUMTc6NTA6MDUrMDA6MDD1vHRzAAAAH3RFWHRwczpIaVJlc0JvdW5kaW5nQm94ADI2MngzNisyNS0zZNE+tAAAABx0RVh0cHM6TGV2ZWwAQWRvYmUtMy4wIEVQU0YtMy4wCptwu+MAAAAZdEVYdHBzOlNwb3RDb2xvci0wAGZvbnQgQ01SMTDtW08rAAAAAElFTkSuQmCC
 
