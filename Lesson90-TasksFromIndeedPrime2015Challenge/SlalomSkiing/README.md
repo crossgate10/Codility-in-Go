@@ -48,10 +48,10 @@ N is an integer within the range [1..100,000];
 each element of array A is an integer within the range [1..1,000,000,000];
 the elements of A are all distinct.
 
-##### 心得
+#### 心得
 ```
 主要考 Longest Increasing Subsequence（LIS）
 ```
-##### 參考
-[Code Says](https://codesays.com/2016/solution-to-slalom-skiing-by-codility/)
-[LIS](http://web.ntnu.edu.tw/~algo/LongestIncreasingSubsequence.html)
+#### 參考
+1. [Code Says](https://codesays.com/2016/solution-to-slalom-skiing-by-codility/)
+2. [LIS](http://web.ntnu.edu.tw/~algo/LongestIncreasingSubsequence.html)
